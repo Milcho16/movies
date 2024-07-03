@@ -1,5 +1,22 @@
 body{background-color: black;
     color: white;
 }
-h1{text-align: center;}
+h1{text-align: center;
+    text-shadow: 2px 2px #FF0000;
+}
 
+a{color: aliceblue;}
+
+/*бутон*/
+a:link, a:visited {
+    background-color: #ffffff;
+    color: rgb(10, 12, 12);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;}
+    /*маркиране на бутона*/
+a:hover, a:active {
+    background-color:rgba(15, 201, 230, 0.638);}
+
+ 
