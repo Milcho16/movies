@@ -3,6 +3,35 @@ body{background-color: black;
 }
 h1{text-align: center;
     text-shadow: 2px 2px #FF0000;
+
+}
+
+
+.all_movies
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: baseline;
+row-gap:20px;
+/*gap: 10px;*/
+
+
+} 
+
+.text{
+    flex-basis: 50%;
+}
+
+
+.all_class{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 600px;;
+    column-gap: 20px;
+    
+}
+b{ color: rgba(15, 201, 230, 0.638);
+
 }
 
 a{color: aliceblue;}
@@ -18,5 +47,8 @@ a:link, a:visited {
     /*маркиране на бутона*/
 a:hover, a:active {
     background-color:rgba(15, 201, 230, 0.638);}
+
+
+
 
  
