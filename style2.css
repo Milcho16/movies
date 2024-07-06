@@ -1,6 +1,6 @@
 body{background-color: black;
     /*color: aliceblue;*/
-    color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255); 
     /*background-image: url("moviess_fone.jpg")*/
 
     
@@ -8,11 +8,20 @@ body{background-color: black;
 }
 
 h2{
-    color: #ffffff;
+
+    text-align: center;
+    text-shadow: 2px 2px #FF0000;
+    font-size: 50px;
 }
-p{
-    color: #ffffff;
+
+h3{
+    font-size: 20px;
 }
+
+
+
+
+
 
 
 .all_movies
@@ -26,17 +35,17 @@ row-gap:35px;
 .text{
     flex-basis: 50%;
 }
+
+
 .all_class{
     display: flex;
     flex-direction: row-reverse;
-    width: 650px;
+    width: 1100px;
     column-gap: 15px;
     
 }
 
-i{
-    color: #ffffff;
-}
+
 /*бутон*/
 a:link, a:visited {
     background-color: #ffffff;
