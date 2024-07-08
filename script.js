@@ -1,1 +1,1 @@
-const movies =fech("http://localhost:3000/movies",)
+<button onclick="location.reload()">Рефреш</button>
