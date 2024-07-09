@@ -1,26 +1,47 @@
 console.log
-("Hello");
+    ("Hello");
 
 
 let is_clicked = false;
- 
-function myFunction() {
-    let clickButtonElement = document.getElementById('click-button')
-    let buttonsDivElement = document.getElementById('buttons')
- 
+
+// function myFunction() {
+//     let clickButtonElement = document.getElementById('click-button')
+// let buttonsDivElement = document.getElementById('buttons')
+
+//     if (!is_clicked) {
+//         let newButtonElement = document.createElement('button')
+//         newButtonElement.classList.add('click-buttons')
+// newButtonElement.textContent = 'Click Me'
+
+//         newButtonElement.addEventListener('click', () => {
+//             is_clicked = false;
+// newButtonElement.remove()
+//         })
+
+// buttonsDivElement.appendChild(newButtonElement)
+//         is_clicked = true;
+//     }
+//   }
+// ;
+
+
+let clickButtonElement = document.getElementById('click-button');
+let buttonsDivElement = document.getElementById('buttons');
+
+
+clickButtonElement.addEventListener("click", () => {
+    console.log("m");
     if (!is_clicked) {
-        let newButtonElement = document.createElement('button')
+        let newButtonElement = document.createElement('button');
         newButtonElement.classList.add('click-buttons')
         newButtonElement.textContent = 'Click Me'
- 
+
+        buttonsDivElement.appendChild(newButtonElement)
         newButtonElement.addEventListener('click', () => {
             is_clicked = false;
-            newButtonElement.remove()
+        newButtonElement.remove();
         })
- 
-        buttonsDivElement.appendChild(newButtonElement)
-        is_clicked = true;
     }
-  }
-;
- 
+
+})
+
